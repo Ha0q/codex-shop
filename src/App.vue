@@ -56,7 +56,7 @@ const dishes = [
       <div class="section-heading">
         <p class="eyebrow"><span></span> DAL NOSTRO FORNO</p>
         <h2 id="menu-title">炉边招牌</h2>
-        <p>从第一口披萨，到最后一勺甜点。</p>
+        <p>披萨一上桌就开始抢，提拉米苏最后一勺靠划拳。</p>
       </div>
       <div class="dish-grid">
         <article v-for="dish in dishes" :key="dish.name" class="dish">
